@@ -1,0 +1,40 @@
+.MuiAvatar-square {
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+.MuiAvatar-img {
+    object-fit: contain!important;
+    margin-right: 0px!important;
+}
+
+.date-time {
+    color: darkslategray;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.position-par {
+    margin-top: 0px;
+    margin-left: 70px;
+    color: "#282828";
+}
+
+.position {
+    margin-top: -12px!important;
+}
+
+.skills-par {
+    margin-top: 0px;
+    margin-left: 70px;
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+.skills {
+    margin-top: -7px!important;
+}
+
+.link-icon {
+    margin-left: 10px;
+}

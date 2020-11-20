@@ -1,38 +1,96 @@
+:root {
+  --content-height: 100%;
+}
+
 .App {
-  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-info {
+  min-height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+  color: #5fcbe4;
+  font-size: 2.5em;
+  z-index: 100!important;
+}
+
+
+
+.App-information {
+  height: var(--content-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.App-content {
+  padding-top: 20px;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  width: 100%;
+  z-index: 100!important;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+#pBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index:5!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tsparticles-canvas-el {
+  width: 100%;
+  height: 99.7vh!important;
+}
+
+.MuiAppBar-colorDefault {
+  background-color: #194157!important;
+}
+
+.MuiTabs-indicator {
+  background-color: #37b5d3!important;
+}
+
+.MuiTab-textColorPrimary {
+  color: #e0dee3!important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #37b5d3!important;
+}
+
+.react-swipeable-view-container{
+  height: 500px;
+}
+
+img {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.About-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+p {
+  margin-block-start: 0.3em!important;
+  margin-block-end: 0.3em!important;
 }

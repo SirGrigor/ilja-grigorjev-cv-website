@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Particles from 'react-particles-js';
+import Tab from "./components/mainBoard/DashboardTab";
+import Card from "./components/mainBoard/CardAbout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+        <div id = "pBg"><Particles
+            params={{
+              "particles": {
+                "number": {
+                  "value": 110
+                },
+                "size": {
+                  "value": 3
+                }
+              },
+              "interactivity": {
+                "events": {
+                  "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                  }
+                }
+              }
+            }}/>
+        </div>
+        <div className="App-info">
+          <div className="App-header">
+            <p className="Header-content" ><kbd>MyPortfolio</kbd></p>
+            <div className="About-me">
+              <Card />
+            </div>
+          </div>
+          <div className="App-information">
+            <div className="App-content">
+              <Tab />
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }
 
