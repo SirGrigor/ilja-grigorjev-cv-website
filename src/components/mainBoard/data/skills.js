@@ -101,4 +101,22 @@ export const skills = [
         logo: "ecom.jpg",
         link: undefined
     },
+    {
+        mainTitle: 'Testing Tools',
+        description: "jUnit",
+        logo: "debug.png",
+        link: undefined
+    },
+    {
+        mainTitle: 'Social Media tools',
+        description: "Facebook Business Suite, Google Ads, Canva, Crawler BOTs",
+        logo: "socmedia.jpeg",
+        link: undefined
+    },
+    {
+        mainTitle: 'Marketing Tools',
+        description: "Google Analytics, Facebook Pixel, SEO optimisation tools, WEB-monitoring tools, Mail-marketing automatization tools, SMM automatization tools",
+        logo: "robot.png",
+        link: undefined
+    },
 ]

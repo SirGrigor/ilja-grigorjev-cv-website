@@ -72,9 +72,6 @@ export default function ProfileCard() {
                     <p>
                     I am purposeful Full-Stack engineer
                     fascinated with Front and Backend technologies, also I have an essential experience in business and marketing.
-                    <p>
-                    But, let me know who are you?
-                    </p>
                     </p>
                 </Typography>
                 <Divider style={{margin: '10px 0'}} />

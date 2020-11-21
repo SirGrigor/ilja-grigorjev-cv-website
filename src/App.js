@@ -16,11 +16,27 @@ function App() {
                                 density: {enable: true, value_area: 1000,}
                             },
                             move: {enable: true, speed: 6, direction: "none", random: true, bounce: true},
-                            line_linked: {enable: true, distance: 150, color: "#000000", opacity: 0.4, width: 1},
-                            color: "#ff0000"
+                            line_linked: {enable: true, distance: 150, color: "#150d0d", opacity: 0.4, width: 1},
+                            color: "#a50000"
                         },
                         background:{
                             color: "#11b0c9",
+                        },
+                        interactivity:{
+                            events:{
+                                onhover:{
+                                    enable:true,
+                                    mode: "repulse"
+                                }
+                            },
+                            modes:{
+                                grab: {
+                                    distance: 600,
+                                    line_linked: {
+                                        opacity: 6
+                                    }
+                                }
+                            }
                         }
                         }
 

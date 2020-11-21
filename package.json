@@ -1,5 +1,6 @@
 {
   "name": "ilja-grigorjev-cv-website",
+  "homepage": "http://iljagrigorjev.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
