@@ -9,8 +9,7 @@ import linkedin from "../images/linkedin.svg"
 import contact from "../images/contact.svg"
 import CV from "../images/CV.svg"
 import bitbucket from "../images/bitbucket.svg"
-
-
+import iljag_cv from "../images/iljag_cv.jpg"
 const useStyles = makeStyles((theme) => ({
     root: {
         maxWidth: '900px',
@@ -93,10 +92,6 @@ export default function ProfileCard() {
                     <a href="mailto:grigorjev.ilja@gmail.com">
                         <img className={classes.sources} src={contact} alt="contact"/>
                     </a>
-                    <a href="mailto:grigorjev.ilja@gmail.com">
-                        <img className={classes.sources} src={CV} alt="cv"/>
-                    </a>
-
                 </Typography>
             </div>
         </Card>
