@@ -18,10 +18,10 @@ export const skills = [
         link: "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)"
     },
     {
-        mainTitle: 'Golang',
-        description: 'open source programming language',
-        logo: "golang.png",
-        link: "https://golang.org/"
+        mainTitle: 'Java',
+        description: 'high-level programming language',
+        logo: "java.png",
+        link: "https://www.java.com/"
     },
     {
         mainTitle: 'Node.js/NPM',

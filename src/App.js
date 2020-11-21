@@ -29,7 +29,7 @@ function App() {
         </div>
         <div className="App-info">
           <div className="App-header">
-            <p className="Header-content" ><kbd>MyPortfolio</kbd></p>
+            <p className="Header-content" ><kbd>Grigorjev Ilja Portfolio</kbd></p>
             <div className="About-me">
               <Card />
             </div>

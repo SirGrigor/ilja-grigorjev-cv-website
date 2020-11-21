@@ -12,7 +12,7 @@ import bitbucket from "../images/bitbucket.svg"
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: '700px',
+        maxWidth: '900px',
         display: 'flex',
         minHeight: '250px',
         zIndex: "100!important",
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     cover: {
         minWidth: '200px',
         zIndex: "100!important",
-        ['@media (max-width:515px)']: {
+        '@media (max-width:515px)': {
             height: '250px'
         }
     },
@@ -67,18 +67,20 @@ export default function ProfileCard() {
             />
             <div className={classes.details}>
                 <Typography className={classes.text} component="p">
-                    Hey!
-                    My name is Ilja Grigorjev! I am purposeful Full-Stack engineer.
+                    <p> Hey!</p>
+                    <p>
+                    Nice to meet You! Seems Your are looking for programmer with strong business skills?
+                    </p>
+                    <p>
+                    I am purposeful Full-Stack engineer.
                     fascinated with technologies and constant development!
                     Seems Intriguing?
+                    </p>
                     Please take a look at my portfolio and dont hesitate to contact me anytime!
                 </Typography>
                 <Divider style={{margin: '10px 0'}} />
                 <Typography className={classes.text} component="p">
-                    Software developer since 2017.
-                    Doing <kbd className={classes.code}>web development</kbd> since 2017.
-                    Always trying something new and learning fast.
-                    I have a keen passion for reading books. :)
+                    Software developer since 2017
                 </Typography>
                 <Typography className={classes.contacts} >
                     <a href="https://www.linkedin.com/in/ilja-grigorjev-75771aa2/">
