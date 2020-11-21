@@ -1,56 +1,38 @@
 export const experience = [
     {
-        name:  "Erply",
-        position: "Frontend Developer (React, Vue)",
-        skills: "JS, React/Vue, PHP, Golang",
-        startDate: 2020,
-        endDate: 0,
-        corpLink: "https://erply.com/",
-        logo: "erply.svg"
+        name:  "Beebiasi",
+        position: "CEO",
+        skills: "Marketing, Management, Business analytics, System administration",
+        startDate: 2015,
+        endDate: 2019,
+        corpLink: undefined,
+        logo: "beebiasi.jpeg"
     },
     {
-        name:  "Beebitoit",
-        position: "Prestashop developer (e-shop project)",
-        skills: "HTML/CSS, PHP, JS, Prestashop",
+        name:  "Beebiasi",
+        position: "Prestashop developer and admisitrator",
+        skills: "HTML/CSS, PHP, JS, Prestashop, SQL",
         startDate: 2018,
         endDate: 2019,
         corpLink: undefined,
-        logo: undefined
-    },
-    {
-        name:  "Starship Technologies",
-        position: "Robot operator",
-        skills: "data analysis",
-        startDate: 2019,
-        endDate: 2019,
-        corpLink: "https://www.starship.xyz/",
-        logo: "starship.png"
-    },
-    {
-        name:  "Conscription \'2JVB\'",
-        position: "Liaison",
-        skills: "communication systems support",
-        startDate: 2019,
-        endDate: 2020,
-        corpLink: "https://mil.ee/uksused/maavagi/2-jalavaebrigaad/",
-        logo: "conscription.png"
+        logo: "beebiasi.jpeg"
     },
     {
         name:  "TalTech University",
-        position: "Informatics Bachelor\'s degree",
-        skills: undefined,
-        startDate: 2017,
+        position: "IT systems Development",
+        skills: "Programming: JS, Python, Java",
+        startDate: 2018,
         endDate: 2021,
         corpLink: "https://www.taltech.ee/",
         logo: "taltech.png"
     },
     {
-        name:  "uTest (Applause)",
-        position: "manual tester",
-        skills: undefined,
-        startDate: 2018,
+        name:  "Splento",
+        position: "Marketing Manager",
+        skills: "Management, marketing campaign set-up, business analytics, Python and JS bot set-up",
+        startDate: 2019,
         endDate: 2020,
         corpLink: "https://www.applause.com/",
-        logo: "utest.png"
+        logo: "splento.jpg"
     },
 ]
