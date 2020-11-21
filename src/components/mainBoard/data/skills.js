@@ -13,7 +13,7 @@ export const skills = [
     },
     {
         mainTitle: 'Bootstrap 4',
-        description: 'front-end framework for faster and easier web development',
+        description: 'Front-end framework for faster and easier web development',
         logo: "bootstrap.png",
         link: "https://getbootstrap.com/"
     },
@@ -25,25 +25,25 @@ export const skills = [
     },
     {
         mainTitle: 'React',
-        description: 'open-source JavaScript library',
+        description: 'Open-source JavaScript library',
         logo: "logo512.png",
         link: "https://reactjs.org/"
     },
     {
         mainTitle: 'Redux',
-        description: 'state management library',
+        description: 'State management library',
         logo: "redux.png",
         link: "https://redux.js.org/"
     },
     {
         mainTitle: 'Node.js/NPM',
-        description: 'package manager for the Node JavaScript platform',
+        description: 'Package manager for the Node JavaScript platform',
         logo: "node.png",
         link: "https://www.npmjs.com/"
     },
     {
         mainTitle: 'Java',
-        description: 'high-level programming language',
+        description: 'High-level programming language',
         logo: "java.png",
         link: "https://www.java.com/"
     },
@@ -61,13 +61,13 @@ export const skills = [
     },
     {
         mainTitle: 'Git',
-        description: 'version control system(gitlab, github, bitbucket',
+        description: 'Version control system(gitlab, github, bitbucket',
         logo: "git.png",
         link: "https://git-scm.com/"
     },
     {
         mainTitle: 'Docker',
-        description: 'software platform for building applications based on containers',
+        description: 'Software platform for building applications based on containers',
         logo: "docker.png",
         link: "https://www.docker.com/"
     },

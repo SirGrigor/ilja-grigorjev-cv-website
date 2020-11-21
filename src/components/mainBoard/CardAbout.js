@@ -7,9 +7,7 @@ import Divider from '@material-ui/core/Divider';
 import myPhoto from "../images/myphoto.png";
 import linkedin from "../images/linkedin.svg"
 import contact from "../images/contact.svg"
-import CV from "../images/CV.svg"
-import bitbucket from "../images/bitbucket.svg"
-import iljag_cv from "../images/iljag_cv.jpg"
+import github from "../images/github.svg"
 const useStyles = makeStyles((theme) => ({
     root: {
         maxWidth: '900px',
@@ -67,27 +65,28 @@ export default function ProfileCard() {
             />
             <div className={classes.details}>
                 <Typography className={classes.text} component="p">
-                    <p> Hey!</p>
+                    <p> Hey! Nice to meet You.</p>
                     <p>
-                    Nice to meet You! Seems Your are looking for programmer with strong business skills?
+                        Seems You are looking for a confident programmer with strong business skills?
                     </p>
                     <p>
-                    I am purposeful Full-Stack engineer.
-                    fascinated with technologies and constant development!
-                    Seems Intriguing?
+                    I am purposeful Full-Stack engineer
+                    fascinated with Front and Backend technologies, also I have an essential experience in business and marketing.
+                    <p>
+                    But, let me know who are you?
                     </p>
-                    Please take a look at my portfolio and dont hesitate to contact me anytime!
+                    </p>
                 </Typography>
                 <Divider style={{margin: '10px 0'}} />
                 <Typography className={classes.text} component="p">
-                    Software developer since 2017
+                    Do you want to know more? Please, take a look at my Git-Repository.
                 </Typography>
                 <Typography className={classes.contacts} >
                     <a href="https://www.linkedin.com/in/ilja-grigorjev-75771aa2/">
                         <img className={classes.sources} src={linkedin} alt="linkedin"/>
                     </a>
                     <a href="https://github.com/SirGrigor/">
-                        <img className={classes.sources} src={bitbucket} alt="github"/>
+                        <img className={classes.sources} src={github} alt="github"/>
                     </a>
                     <a href="mailto:grigorjev.ilja@gmail.com">
                         <img className={classes.sources} src={contact} alt="contact"/>
